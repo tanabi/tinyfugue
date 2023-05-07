@@ -34,6 +34,7 @@ static int  FDECL(list_worlds,(CONST Pattern *name, CONST Pattern *type,
 static void FDECL(free_world,(World *w));
 static World *NDECL(alloc_world);
 
+struct World *world_decl = NULL;
 static World *hworld = NULL;
 
 World *defaultworld = NULL;

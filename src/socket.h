@@ -15,7 +15,7 @@
 
 #define CONN_SSL        0x04
 
-struct World   *world_decl;	/* declares struct World */
+extern struct World   *world_decl;	/* declares struct World */
 
 extern Aline *incoming_text;
 extern int quit_flag;
